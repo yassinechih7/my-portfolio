@@ -14,22 +14,22 @@ function NavBar() {
         <div className={styles.mainList}>
           <ul>
             <li>
-              <Link href="/">
+              <Link href="#hashid">
                 <a>About me</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="#hashid">
                 <a>Skillset</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="#hashid">
                 <a>Technologies</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="#hashid">
                 <a>Projects</a>
               </Link>
             </li>

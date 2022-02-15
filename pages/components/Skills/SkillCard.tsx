@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./SkillCard.module.css";
 
-function SkillCard(props) {
+function SkillCard(props : any) {
   return (
     <div className={styles.SkillCard}>
       <div className={styles.CardContentWrapper}>
