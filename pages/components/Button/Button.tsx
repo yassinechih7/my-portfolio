@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Button.module.css";
 
-function Button(props) {
+function Button(props:any) {
   const [buttonState, toggleButton] = useState(1);
   const [buttonMode, setButtonMode] = useState("active");
   let className = styles.Button;

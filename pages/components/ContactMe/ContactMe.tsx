@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 function ContactMe() {
   const { register, handleSubmit } = useForm();
   const [result, setResult] = useState("");
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data:any) => console.log(data);
   return (
     <div className={styles.ContactMe}>
       <div className={styles.contactMeWrapper}>
