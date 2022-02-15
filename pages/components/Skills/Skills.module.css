@@ -1,0 +1,51 @@
+.Skills {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3em 0 2em;
+}
+
+.minTitle {
+  width: 100%;
+  text-align: left;
+
+  color: #6068db;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  font-size: 0.9rem;
+  line-height: 1em;
+
+  font-size: 0.86rem;
+  line-height: 170%;
+}
+
+.mainTitle {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.SkillsCards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5em;
+}
+@media only screen and (min-width: 309px) and (max-width: 820px) {
+  .SkillsCards {
+    width: 60vw;
+    display: flex;
+    overflow-x: scroll;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}

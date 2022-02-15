@@ -1,0 +1,44 @@
+.SkillCard {
+  display: flex;
+
+  width: 27vw;
+  height: 30vh;
+
+  width: 30vw;
+  height: 12vw;
+}
+.SkillCardContentWrapper {
+}
+.cardImage {
+  width: 13vw;
+  height: 30vh;
+
+  width: 12vw;
+  height: 24px;
+}
+
+.cardTitle {
+  color: #fff;
+  font-weight: bold;
+
+  font-size: 0.95rem;
+
+  font-size: 0.9rem;
+
+  line-height: 140%;
+}
+
+.cardText {
+  font-size: 0.8rem;
+  line-height: 180%;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.56);
+}
+
+@media only screen and (min-width: 309px) and (max-width: 820px) {
+  .SkillCard {
+    width: 71vw;
+    height: 36vw;
+    padding-bottom: 1em;
+  }
+}
